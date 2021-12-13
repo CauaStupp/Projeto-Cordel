@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;1,200;1,300;1,400&family=Open+Sans:ital,wght@0,300;0,400;1,300&family=Outfit:wght@100;200;400;600&family=Passion+One:wght@400;700;900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Passion one';
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+.title {
+    height: 200px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.title h1 {
+    font-size: 80px;
+}
+
+.title p, .title a {
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.title p {
+    color: #dcdcdcf5;
+}
+
+.title a {
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.title a:hover {
+    background-color: white;
+    color: black;
+    transition: 0.3s;
+}
+
+
+
+.conteudo, .conteudo-2{
+    margin-top: 15vh;
+    margin-left: 30px;
+    margin-bottom: 15vh;
+    font-size: 45px;
+    line-height: 60px;
+}
+
+.container-img {
+    background-image: url('imagens/background001.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: right center;
+    color: white;
+    height: auto;
+    display: flex;
+}
+
+.conteudo-2 {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    width: auto;
+    padding: 30px;
+    height: auto;
+}
+
+.container-img-2 {
+    background-image: url('imagens/background002.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: right center;
+    color: white;
+    height: auto;
+    display: flex;
+}
+
+
+footer {
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 20px;
+    font-size: 18px;
+    margin-top: 20vh;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+footer a:hover {
+    background-color: white;
+    color: black;
+    transition: 0.3;
+}
+
+
+@media (max-width: 650px) {
+
+    .title {
+        height: 120px;
+    }
+
+    .title h1 {
+        font-size: 35px;
+    }
+
+    .conteudo, .conteudo-2 {
+        font-size: 25px;
+        line-height: 40px;
+    }
+}
+
+@media (max-width: 350px) {
+    .conteudo-2 {
+        margin: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}
