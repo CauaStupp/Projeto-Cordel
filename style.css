@@ -138,3 +138,18 @@ footer a:hover {
         margin-bottom: 20px;
     }
 }
+
+
+
+
+.scroll {
+    opacity: 0;
+    transform: translateX(-30px);
+    transition: 1s;
+}
+
+.scroll.ativo {
+    opacity: 1;
+    transform: translateX(0);
+    transition: 1s;
+}
